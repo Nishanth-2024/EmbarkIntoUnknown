@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE86EED72BEE180900E1E619 /* ObisidianNomadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE86EED62BEE180900E1E619 /* ObisidianNomadApp.swift */; };
+		EE86EEDB2BEE180A00E1E619 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE86EEDA2BEE180A00E1E619 /* Assets.xcassets */; };
+		EE86EEDF2BEE180A00E1E619 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE86EEDE2BEE180A00E1E619 /* Preview Assets.xcassets */; };
+		EE86EEE72BEE36E300E1E619 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE86EEE62BEE36E300E1E619 /* LoginView.swift */; };
+		EE86EEEA2BEE426F00E1E619 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE86EEE92BEE426F00E1E619 /* LoginViewModel.swift */; };
+		EE86EEED2BEE42A600E1E619 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE86EEEC2BEE42A600E1E619 /* Color.swift */; };
+		EE86EEF12BEE578600E1E619 /* CustomToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE86EEF02BEE578600E1E619 /* CustomToggle.swift */; };
+		EE86EF212BEF367500E1E619 /* CustomTextFieldStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE86EF202BEF367500E1E619 /* CustomTextFieldStyles.swift */; };
+		EE86EF232BEF393D00E1E619 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE86EF222BEF393D00E1E619 /* CustomTextField.swift */; };
+		EE86EF252BEF3DE700E1E619 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE86EF242BEF3DE700E1E619 /* Constants.swift */; };
+		EEA95FF52BEF7C5000A5B5D3 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA95FF42BEF7C5000A5B5D3 /* DashboardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE86EED32BEE180900E1E619 /* ObisidianNomad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObisidianNomad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE86EED62BEE180900E1E619 /* ObisidianNomadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObisidianNomadApp.swift; sourceTree = "<group>"; };
+		EE86EEDA2BEE180A00E1E619 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE86EEDC2BEE180A00E1E619 /* ObisidianNomad.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ObisidianNomad.entitlements; sourceTree = "<group>"; };
+		EE86EEDE2BEE180A00E1E619 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE86EEE62BEE36E300E1E619 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		EE86EEE92BEE426F00E1E619 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		EE86EEEC2BEE42A600E1E619 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		EE86EEF02BEE578600E1E619 /* CustomToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToggle.swift; sourceTree = "<group>"; };
+		EE86EF202BEF367500E1E619 /* CustomTextFieldStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldStyles.swift; sourceTree = "<group>"; };
+		EE86EF222BEF393D00E1E619 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		EE86EF242BEF3DE700E1E619 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EEA95FF42BEF7C5000A5B5D3 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE86EED02BEE180900E1E619 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE86EECA2BEE180900E1E619 = {
+			isa = PBXGroup;
+			children = (
+				EE86EED52BEE180900E1E619 /* ObisidianNomad */,
+				EE86EED42BEE180900E1E619 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE86EED42BEE180900E1E619 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE86EED32BEE180900E1E619 /* ObisidianNomad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE86EED52BEE180900E1E619 /* ObisidianNomad */ = {
+			isa = PBXGroup;
+			children = (
+				EE86EF1F2BEF366700E1E619 /* CustomStyles */,
+				EE86EEEF2BEE577700E1E619 /* CustomViews */,
+				EE86EEEE2BEE44BD00E1E619 /* Models */,
+				EE86EEEB2BEE429500E1E619 /* Helpers */,
+				EE86EEE82BEE423D00E1E619 /* ViewModels */,
+				EE86EEE52BEE36CE00E1E619 /* Views */,
+				EE86EED62BEE180900E1E619 /* ObisidianNomadApp.swift */,
+				EE86EEDA2BEE180A00E1E619 /* Assets.xcassets */,
+				EE86EEDC2BEE180A00E1E619 /* ObisidianNomad.entitlements */,
+				EE86EEDD2BEE180A00E1E619 /* Preview Content */,
+			);
+			path = ObisidianNomad;
+			sourceTree = "<group>";
+		};
+		EE86EEDD2BEE180A00E1E619 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EE86EEDE2BEE180A00E1E619 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE86EEE52BEE36CE00E1E619 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EE86EEE62BEE36E300E1E619 /* LoginView.swift */,
+				EEA95FF42BEF7C5000A5B5D3 /* DashboardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EE86EEE82BEE423D00E1E619 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				EE86EEE92BEE426F00E1E619 /* LoginViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		EE86EEEB2BEE429500E1E619 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EE86EEEC2BEE42A600E1E619 /* Color.swift */,
+				EE86EF242BEF3DE700E1E619 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		EE86EEEE2BEE44BD00E1E619 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EE86EEEF2BEE577700E1E619 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				EE86EEF02BEE578600E1E619 /* CustomToggle.swift */,
+				EE86EF222BEF393D00E1E619 /* CustomTextField.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		EE86EF1F2BEF366700E1E619 /* CustomStyles */ = {
+			isa = PBXGroup;
+			children = (
+				EE86EF202BEF367500E1E619 /* CustomTextFieldStyles.swift */,
+			);
+			path = CustomStyles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE86EED22BEE180900E1E619 /* ObisidianNomad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE86EEE22BEE180A00E1E619 /* Build configuration list for PBXNativeTarget "ObisidianNomad" */;
+			buildPhases = (
+				EE86EECF2BEE180900E1E619 /* Sources */,
+				EE86EED02BEE180900E1E619 /* Frameworks */,
+				EE86EED12BEE180900E1E619 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObisidianNomad;
+			productName = ObisidianNomad;
+			productReference = EE86EED32BEE180900E1E619 /* ObisidianNomad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE86EECB2BEE180900E1E619 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					EE86EED22BEE180900E1E619 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = EE86EECE2BEE180900E1E619 /* Build configuration list for PBXProject "ObisidianNomad" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE86EECA2BEE180900E1E619;
+			productRefGroup = EE86EED42BEE180900E1E619 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE86EED22BEE180900E1E619 /* ObisidianNomad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE86EED12BEE180900E1E619 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE86EEDF2BEE180A00E1E619 /* Preview Assets.xcassets in Resources */,
+				EE86EEDB2BEE180A00E1E619 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE86EECF2BEE180900E1E619 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE86EEF12BEE578600E1E619 /* CustomToggle.swift in Sources */,
+				EE86EEE72BEE36E300E1E619 /* LoginView.swift in Sources */,
+				EE86EEEA2BEE426F00E1E619 /* LoginViewModel.swift in Sources */,
+				EE86EF232BEF393D00E1E619 /* CustomTextField.swift in Sources */,
+				EEA95FF52BEF7C5000A5B5D3 /* DashboardView.swift in Sources */,
+				EE86EED72BEE180900E1E619 /* ObisidianNomadApp.swift in Sources */,
+				EE86EEED2BEE42A600E1E619 /* Color.swift in Sources */,
+				EE86EF212BEF367500E1E619 /* CustomTextFieldStyles.swift in Sources */,
+				EE86EF252BEF3DE700E1E619 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EE86EEE02BEE180A00E1E619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE86EEE12BEE180A00E1E619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		EE86EEE32BEE180A00E1E619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ObisidianNomad/ObisidianNomad.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ObisidianNomad/Preview Content\"";
+				DEVELOPMENT_TEAM = 5N2DDLS5X3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nishanth..ObisidianNomad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE86EEE42BEE180A00E1E619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ObisidianNomad/ObisidianNomad.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ObisidianNomad/Preview Content\"";
+				DEVELOPMENT_TEAM = 5N2DDLS5X3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nishanth..ObisidianNomad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE86EECE2BEE180900E1E619 /* Build configuration list for PBXProject "ObisidianNomad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE86EEE02BEE180A00E1E619 /* Debug */,
+				EE86EEE12BEE180A00E1E619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE86EEE22BEE180A00E1E619 /* Build configuration list for PBXNativeTarget "ObisidianNomad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE86EEE32BEE180A00E1E619 /* Debug */,
+				EE86EEE42BEE180A00E1E619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE86EECB2BEE180900E1E619 /* Project object */;
+}
