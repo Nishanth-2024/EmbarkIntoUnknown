@@ -1,5 +1,5 @@
 //
-//  LoginView.swift
+//  LoginView1.swift
 //  ObisidianNomad
 //
 //  Created by VEMULA Nishanth on 10/05/24.
@@ -8,7 +8,7 @@
 import SwiftUI
 import UIKit
 
-struct LoginView: View {
+struct LoginView1: View {
     
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @Environment(\.verticalSizeClass) var verticalSizeClass
@@ -20,32 +20,23 @@ struct LoginView: View {
     var body: some View {
         GeometryReader { geometryProxy in
             ZStack(alignment: .center) {
+                // 1. Background
                 LinearGradient(gradient: Constants.shared.gradient4,
                                startPoint: .topLeading,
                                endPoint: .bottomTrailing)
                 .edgesIgnoringSafeArea(.all)
                 
-                
-                Group {
-                    if horizontalSizeClass == .compact || (horizontalSizeClass == .regular && orientation.isPortrait) {
-                        VStack(alignment: .center) {
-                            if !isPhone {
-                                Spacer().frame(height: 80)
-                            }
-                            logo
-                            formContent
-                            Spacer()
-                        }
-                        .frame(width: geometryProxy.size.width * 0.8)
-                    } else {
-                        HStack(alignment: .center) {
-                            Spacer()
-                            logo
-                            formContent
-                            Spacer()
-                        }
-                        .frame(width: geometryProxy.size.width * 0.8)
+                // 2. Layout for the actual content
+                if horizontalSizeClass == .compact || (horizontalSizeClass == .regular && orientation.isPortrait) {
+                    VStack(alignment: .center) {
+                        contentGroup
                     }
+                    .frame(width: geometryProxy.size.width * 0.8)
+                } else {
+                    HStack(alignment: .center) {
+                        contentGroup
+                    }
+                    .frame(width: geometryProxy.size.width * 0.8)
                 }
             }
         }
@@ -59,6 +50,15 @@ struct LoginView: View {
             withAnimation {
                 self.orientation = UIDevice.current.orientation
             }
+        }
+    }
+    
+    private var contentGroup: some View {
+        Group {
+            Spacer()
+            logo
+            formContent
+            Spacer()
         }
     }
     
@@ -107,6 +107,6 @@ struct LoginView: View {
 }
 
 #Preview {
-    LoginView(dataModel: .constant(LoginViewModel()))
+    LoginView1(dataModel: .constant(LoginViewModel()))
 }
 

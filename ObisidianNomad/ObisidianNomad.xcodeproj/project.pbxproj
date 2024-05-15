@@ -7,33 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE3160932BF4F0AC003D80A7 /* GenericListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3160922BF4F0AC003D80A7 /* GenericListView.swift */; };
+		EE3160952BF4F5A0003D80A7 /* GenericListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3160942BF4F5A0003D80A7 /* GenericListViewModel.swift */; };
+		EE3160982BF4F68E003D80A7 /* CustomDummyViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3160972BF4F68E003D80A7 /* CustomDummyViews.swift */; };
+		EE31609C2BF4F84C003D80A7 /* MockData1.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE31609B2BF4F84C003D80A7 /* MockData1.swift */; };
 		EE86EED72BEE180900E1E619 /* ObisidianNomadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE86EED62BEE180900E1E619 /* ObisidianNomadApp.swift */; };
 		EE86EEDB2BEE180A00E1E619 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE86EEDA2BEE180A00E1E619 /* Assets.xcassets */; };
 		EE86EEDF2BEE180A00E1E619 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE86EEDE2BEE180A00E1E619 /* Preview Assets.xcassets */; };
-		EE86EEE72BEE36E300E1E619 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE86EEE62BEE36E300E1E619 /* LoginView.swift */; };
+		EE86EEE72BEE36E300E1E619 /* LoginView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE86EEE62BEE36E300E1E619 /* LoginView1.swift */; };
 		EE86EEEA2BEE426F00E1E619 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE86EEE92BEE426F00E1E619 /* LoginViewModel.swift */; };
 		EE86EEED2BEE42A600E1E619 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE86EEEC2BEE42A600E1E619 /* Color.swift */; };
 		EE86EEF12BEE578600E1E619 /* CustomToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE86EEF02BEE578600E1E619 /* CustomToggle.swift */; };
 		EE86EF212BEF367500E1E619 /* CustomTextFieldStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE86EF202BEF367500E1E619 /* CustomTextFieldStyles.swift */; };
 		EE86EF232BEF393D00E1E619 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE86EF222BEF393D00E1E619 /* CustomTextField.swift */; };
 		EE86EF252BEF3DE700E1E619 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE86EF242BEF3DE700E1E619 /* Constants.swift */; };
-		EEA95FF52BEF7C5000A5B5D3 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA95FF42BEF7C5000A5B5D3 /* DashboardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE3160922BF4F0AC003D80A7 /* GenericListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericListView.swift; sourceTree = "<group>"; };
+		EE3160942BF4F5A0003D80A7 /* GenericListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericListViewModel.swift; sourceTree = "<group>"; };
+		EE3160972BF4F68E003D80A7 /* CustomDummyViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDummyViews.swift; sourceTree = "<group>"; };
+		EE31609B2BF4F84C003D80A7 /* MockData1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData1.swift; sourceTree = "<group>"; };
 		EE86EED32BEE180900E1E619 /* ObisidianNomad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObisidianNomad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE86EED62BEE180900E1E619 /* ObisidianNomadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObisidianNomadApp.swift; sourceTree = "<group>"; };
 		EE86EEDA2BEE180A00E1E619 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE86EEDC2BEE180A00E1E619 /* ObisidianNomad.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ObisidianNomad.entitlements; sourceTree = "<group>"; };
 		EE86EEDE2BEE180A00E1E619 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		EE86EEE62BEE36E300E1E619 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		EE86EEE62BEE36E300E1E619 /* LoginView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView1.swift; sourceTree = "<group>"; };
 		EE86EEE92BEE426F00E1E619 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		EE86EEEC2BEE42A600E1E619 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		EE86EEF02BEE578600E1E619 /* CustomToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToggle.swift; sourceTree = "<group>"; };
 		EE86EF202BEF367500E1E619 /* CustomTextFieldStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldStyles.swift; sourceTree = "<group>"; };
 		EE86EF222BEF393D00E1E619 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		EE86EF242BEF3DE700E1E619 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		EEA95FF42BEF7C5000A5B5D3 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +53,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE3160962BF4F674003D80A7 /* GenericCollectionViews */ = {
+			isa = PBXGroup;
+			children = (
+				EE3160922BF4F0AC003D80A7 /* GenericListView.swift */,
+			);
+			path = GenericCollectionViews;
+			sourceTree = "<group>";
+		};
+		EE3160992BF4F69C003D80A7 /* DummyViews */ = {
+			isa = PBXGroup;
+			children = (
+				EE3160972BF4F68E003D80A7 /* CustomDummyViews.swift */,
+			);
+			path = DummyViews;
+			sourceTree = "<group>";
+		};
+		EE31609A2BF4F71E003D80A7 /* MiscellaneousViews */ = {
+			isa = PBXGroup;
+			children = (
+				EE86EEE62BEE36E300E1E619 /* LoginView1.swift */,
+			);
+			path = MiscellaneousViews;
+			sourceTree = "<group>";
+		};
 		EE86EECA2BEE180900E1E619 = {
 			isa = PBXGroup;
 			children = (
@@ -67,8 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				EE86EF1F2BEF366700E1E619 /* CustomStyles */,
-				EE86EEEF2BEE577700E1E619 /* CustomViews */,
-				EE86EEEE2BEE44BD00E1E619 /* Models */,
+				EE86EEEE2BEE44BD00E1E619 /* MockData */,
 				EE86EEEB2BEE429500E1E619 /* Helpers */,
 				EE86EEE82BEE423D00E1E619 /* ViewModels */,
 				EE86EEE52BEE36CE00E1E619 /* Views */,
@@ -91,8 +120,10 @@
 		EE86EEE52BEE36CE00E1E619 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				EE86EEE62BEE36E300E1E619 /* LoginView.swift */,
-				EEA95FF42BEF7C5000A5B5D3 /* DashboardView.swift */,
+				EE86EEEF2BEE577700E1E619 /* CustomViews */,
+				EE3160992BF4F69C003D80A7 /* DummyViews */,
+				EE3160962BF4F674003D80A7 /* GenericCollectionViews */,
+				EE31609A2BF4F71E003D80A7 /* MiscellaneousViews */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -101,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				EE86EEE92BEE426F00E1E619 /* LoginViewModel.swift */,
+				EE3160942BF4F5A0003D80A7 /* GenericListViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -114,11 +146,12 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
-		EE86EEEE2BEE44BD00E1E619 /* Models */ = {
+		EE86EEEE2BEE44BD00E1E619 /* MockData */ = {
 			isa = PBXGroup;
 			children = (
+				EE31609B2BF4F84C003D80A7 /* MockData1.swift */,
 			);
-			path = Models;
+			path = MockData;
 			sourceTree = "<group>";
 		};
 		EE86EEEF2BEE577700E1E619 /* CustomViews */ = {
@@ -209,14 +242,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE86EEF12BEE578600E1E619 /* CustomToggle.swift in Sources */,
-				EE86EEE72BEE36E300E1E619 /* LoginView.swift in Sources */,
+				EE86EEE72BEE36E300E1E619 /* LoginView1.swift in Sources */,
 				EE86EEEA2BEE426F00E1E619 /* LoginViewModel.swift in Sources */,
+				EE31609C2BF4F84C003D80A7 /* MockData1.swift in Sources */,
 				EE86EF232BEF393D00E1E619 /* CustomTextField.swift in Sources */,
-				EEA95FF52BEF7C5000A5B5D3 /* DashboardView.swift in Sources */,
 				EE86EED72BEE180900E1E619 /* ObisidianNomadApp.swift in Sources */,
+				EE3160982BF4F68E003D80A7 /* CustomDummyViews.swift in Sources */,
 				EE86EEED2BEE42A600E1E619 /* Color.swift in Sources */,
 				EE86EF212BEF367500E1E619 /* CustomTextFieldStyles.swift in Sources */,
+				EE3160932BF4F0AC003D80A7 /* GenericListView.swift in Sources */,
 				EE86EF252BEF3DE700E1E619 /* Constants.swift in Sources */,
+				EE3160952BF4F5A0003D80A7 /* GenericListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
