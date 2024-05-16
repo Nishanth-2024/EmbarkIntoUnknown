@@ -11,7 +11,8 @@ import SwiftUI
 struct ObisidianNomadApp: App {
     var body: some Scene {
         WindowGroup {
-            GenericListView(viewModel: SingleListViewModel(title: "Single List View", data: MockData1.singleListData))
+//            GenericListView(viewModel: GenericListViewModel(title: "Single List View", data: MockData1.singleListData))
+            GenericSectionListView(viewModel: GenericSectionListViewModel(title: "Section List View", data: MockData1.sectionListData))
         }
     }
 }

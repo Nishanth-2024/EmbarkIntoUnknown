@@ -10,8 +10,8 @@ import SwiftUI
 struct CustomToggle: View {
     @Binding var isOn: Bool
     
-    var activeColor: Color = .control
-    var inactiveColor: Color = .control.opacity(0.4)
+    var activeColor: Color = .customControl
+    var inactiveColor: Color = .customControl.opacity(0.4)
     var circleColor: Color = .white
     var toggleAnimation: Animation = .easeInOut(duration: 0.20)
 

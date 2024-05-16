@@ -9,7 +9,7 @@ import SwiftUI
 
 struct GenericListView: View {
     
-    public var viewModel: SingleListViewModel
+    public var viewModel: GenericListViewModel
     var body: some View {
         ZStack {
             // TODO: Background Image
@@ -26,5 +26,5 @@ struct GenericListView: View {
 }
 
 #Preview {
-    GenericListView(viewModel: SingleListViewModel(title: "Single List View", data: MockData1.singleListData))
+    GenericListView(viewModel: GenericListViewModel(title: "Single List View", data: MockData1.singleListData))
 }

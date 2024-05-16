@@ -30,17 +30,30 @@ struct LoginView1: View {
                 if horizontalSizeClass == .compact || (horizontalSizeClass == .regular && orientation.isPortrait) {
                     VStack(alignment: .center) {
                         contentGroup
+                         Rectangle().hidden().frame(height: 100)
                     }
                     .frame(width: geometryProxy.size.width * 0.8)
+                    .padding()
                 } else {
                     HStack(alignment: .center) {
+                        Spacer()
                         contentGroup
+                            .frame(maxWidth: 320)
+                        Spacer()
                     }
                     .frame(width: geometryProxy.size.width * 0.8)
+                    .frame(maxWidth: 717)
+                    .padding()
+                    .clipShape(RoundedRectangle(cornerRadius: 12))
+                    .background {
+                        RoundedRectangle(cornerRadius: 12)
+                            .foregroundStyle(.white.opacity(0.05))
+                    }
                 }
             }
         }
         .animation(.default, value: horizontalSizeClass)
+        .tint(.customAccent)
         .onAppear {
             withAnimation {
                 self.orientation = UIDevice.current.orientation
@@ -55,10 +68,8 @@ struct LoginView1: View {
     
     private var contentGroup: some View {
         Group {
-            Spacer()
             logo
             formContent
-            Spacer()
         }
     }
     
@@ -83,7 +94,7 @@ struct LoginView1: View {
                     .foregroundStyle(Color.white)
                 CustomToggle(
                     isOn: $dataModel.rememberMe,
-                    activeColor: .control,
+                    activeColor: .customControl,
                     inactiveColor: .gray
                 )
             }
@@ -91,14 +102,14 @@ struct LoginView1: View {
             Button(action: dataModel.loginAction) {
                 Text("Login")
                     .frame(minWidth: 64, maxWidth: .infinity)
-                    .tint(.control)
+                    .tint(.customControl)
             }
             .disabled(dataModel.disableLogin)
             .buttonStyle(.borderedProminent)
-            .tint(.control)
+            .tint(.customControl)
         }
         .textFieldStyle(CustomTextFieldStyle(
-            borderColor: AnyShapeStyle(Color.accentColor),
+            borderColor: AnyShapeStyle(Color.customAccent),
             borderWidth: 2,
             backgroundColor: AnyShapeStyle(Color.white.opacity(0.2)),
             textColor: AnyShapeStyle(Color.white)
