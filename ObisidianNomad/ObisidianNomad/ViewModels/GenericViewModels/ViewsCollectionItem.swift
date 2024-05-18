@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ViewsCollectionItem: Identifiable, Hashable {
+struct ViewsCollectionItem: Identifiable {
     let id = UUID()
     let title: String
     let view: AnyView
@@ -16,17 +16,7 @@ struct ViewsCollectionItem: Identifiable, Hashable {
         self.title = title
         self.view = view
     }
-
-    static func == (lhs: ViewsCollectionItem, rhs: ViewsCollectionItem) -> Bool {
-        return lhs.id == rhs.id
-    }
-
-    func hash(into hasher: inout Hasher) {
-        hasher.combine(id)
-        hasher.combine(title)
-    }
 }
-
 
 struct ViewsCollectionSectionItem: Identifiable {
     let id = UUID()

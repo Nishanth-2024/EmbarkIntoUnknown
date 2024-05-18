@@ -17,7 +17,12 @@ struct MockData1 {
                 LoginView1(dataModel: .constant(LoginViewModel()))
             )
         ),
-        ViewsCollectionItem(title: "Go to View 2", view: AnyView(CustomDummyView()))
+        ViewsCollectionItem(title: "Go to View 2", view: AnyView(CustomDummyView())),
+        ViewsCollectionItem(title: "Go to View 3", view: AnyView(CustomDummyView())),
+        ViewsCollectionItem(title: "Go to View 4", view: AnyView(CustomDummyView())),
+        ViewsCollectionItem(title: "Go to View 5", view: AnyView(CustomDummyView())),
+        ViewsCollectionItem(title: "Go to View 6", view: AnyView(CustomDummyView())),
+        ViewsCollectionItem(title: "Go to View 7", view: AnyView(CustomDummyView()))
     ]
     
     public static let sectionListData: [ViewsCollectionSectionItem] = [

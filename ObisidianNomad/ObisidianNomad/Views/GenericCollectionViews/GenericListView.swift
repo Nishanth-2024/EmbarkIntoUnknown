@@ -11,16 +11,14 @@ struct GenericListView: View {
     
     public var viewModel: GenericListViewModel
     var body: some View {
-        ZStack {
-            // TODO: Background Image
-            NavigationView {
-                List(viewModel.data) { item in
-                    NavigationLink(destination: item.view) {
-                        Text(item.title)
-                    }
+        // TODO: Background Image
+        NavigationView {
+            List(viewModel.data, id:\.id) { item in
+                NavigationLink(destination: item.view) {
+                    Text(item.title)
                 }
-                .navigationTitle(viewModel.title)
             }
+            .navigationTitle(viewModel.title)
         }
     }
 }

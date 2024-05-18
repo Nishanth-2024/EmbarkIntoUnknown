@@ -13,30 +13,28 @@ struct GenericSectionListView: View {
     @State var selection: ViewsCollectionItem?
     
     var body: some View {
-        ZStack {
-            // TODO: Background Image
             NavigationView {
                 List {
-                    ForEach(viewModel.data) { section in
-                        Section(header: Text(section.title)) {
-                            ForEach(section.collectionItem) { viewItem in
-                                NavigationLink {
-                                    viewItem.view
-                                } label: {
-                                    Text(viewItem.title)
-                                }
-                            }
-                        }
+                    ForEach(viewModel.data, id: \.id) { section in
+                        sectionView(section)
                     }
                 }
                 .listStyle(GroupedListStyle())
-                .navigationDestination(for: ViewsCollectionItem.self) { viewItem in
-                    viewItem.view
-                }
                 .navigationTitle(viewModel.title)
                 .tint(.customControl)
             }
             .tint(.customAccent)
+    }
+    
+    private func sectionView(_ section: ViewsCollectionSectionItem) -> some View {
+        Section(header: Text(section.title)) {
+            ForEach(section.collectionItem, id:\.id) { viewItem in
+                NavigationLink {
+                    viewItem.view
+                } label: {
+                    Text(viewItem.title)
+                }
+            }
         }
     }
     
