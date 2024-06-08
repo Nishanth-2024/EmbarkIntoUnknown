@@ -13,36 +13,32 @@ struct MockData1 {
     public static let singleListData: [ViewsCollectionItem] = [
         ViewsCollectionItem(
             title: "Login View 1",
-            view: AnyView(
-                LoginView1(dataModel: .constant(LoginViewModel()))
-            )
+            viewName: "LoginView1"
         ),
-        ViewsCollectionItem(title: "Go to View 2", view: AnyView(CustomDummyView())),
-        ViewsCollectionItem(title: "Go to View 3", view: AnyView(CustomDummyView())),
-        ViewsCollectionItem(title: "Go to View 4", view: AnyView(CustomDummyView())),
-        ViewsCollectionItem(title: "Go to View 5", view: AnyView(CustomDummyView())),
-        ViewsCollectionItem(title: "Go to View 6", view: AnyView(CustomDummyView())),
-        ViewsCollectionItem(title: "Go to View 7", view: AnyView(CustomDummyView()))
+        ViewsCollectionItem(title: "Go to View 2", viewName: "Go to View 2"),
+        ViewsCollectionItem(title: "Go to View 3", viewName: "Go to View 3"),
+        ViewsCollectionItem(title: "Go to View 4", viewName: "Go to View 4"),
+        ViewsCollectionItem(title: "Go to View 5", viewName: "Go to View 5"),
+        ViewsCollectionItem(title: "Go to View 6", viewName: "Go to View 6"),
+        ViewsCollectionItem(title: "Go to View 7", viewName: "Go to View 7")
     ]
     
     public static let sectionListData: [ViewsCollectionSectionItem] = [
         ViewsCollectionSectionItem(title: "Section 1", collectionItem: [
             ViewsCollectionItem(
                 title: "Login View 1",
-                view: AnyView(
-                    LoginView1(dataModel: .constant(LoginViewModel()))
-                )
+                viewName: "LoginView1"
             ),
-            ViewsCollectionItem(title: "Dummy View 1 2", view: AnyView(CustomDummyView()))
+            ViewsCollectionItem(title: "Dummy View 1 2", viewName: "Go to View 1 2")
         ]),
         ViewsCollectionSectionItem(title: "Section 2", collectionItem: [
-            ViewsCollectionItem(title: "Dummy View 2 1", view: AnyView(CustomDummyView())),
-            ViewsCollectionItem(title: "Dummy View 2 2", view: AnyView(CustomDummyView()))
+            ViewsCollectionItem(title: "Dummy View 2 1", viewName: "Dummy View 2 1"),
+            ViewsCollectionItem(title: "Dummy View 2 2", viewName: "Dummy View 2 2")
         ]),
         ViewsCollectionSectionItem(title: "Section 3", collectionItem: [
-            ViewsCollectionItem(title: "Dummy View 3 1", view: AnyView(CustomDummyView())),
-            ViewsCollectionItem(title: "Dummy View 3 2", view: AnyView(CustomDummyView())),
-            ViewsCollectionItem(title: "Dummy View 3 3", view: AnyView(CustomDummyView()))
+            ViewsCollectionItem(title: "Dummy View 3 1", viewName: "Dummy View 3 1"),
+            ViewsCollectionItem(title: "Dummy View 3 2", viewName: "Dummy View 3 2"),
+            ViewsCollectionItem(title: "Dummy View 3 3", viewName: "Dummy View 3 3")
         ])
     ]
 }

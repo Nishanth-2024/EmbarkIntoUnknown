@@ -14,7 +14,7 @@ struct LoginView1: View {
     @Environment(\.verticalSizeClass) var verticalSizeClass
     
     @Binding var dataModel: LoginViewModel
-    @State private var orientation: UIDeviceOrientation = UIDevice.current.orientation
+    @ObservedObject var singletonHelper: GenericSingletonHelper = GenericSingletonHelper.shared
     private let isPhone: Bool = (UIDevice.current.userInterfaceIdiom == .phone)
     
     var body: some View {
@@ -27,7 +27,7 @@ struct LoginView1: View {
                 .edgesIgnoringSafeArea(.all)
                 
                 // 2. Layout for the actual content
-                if horizontalSizeClass == .compact || (horizontalSizeClass == .regular && orientation.isPortrait) {
+                if horizontalSizeClass == .compact || (horizontalSizeClass == .regular && singletonHelper.orientation.isPortrait) {
                     VStack(alignment: .center) {
                         contentGroup
                          Rectangle().hidden().frame(height: 100)
@@ -54,16 +54,6 @@ struct LoginView1: View {
         }
         .animation(.default, value: horizontalSizeClass)
         .tint(.customAccent)
-        .onAppear {
-            withAnimation {
-                self.orientation = UIDevice.current.orientation
-            }
-        }
-        .onReceive(NotificationCenter.default.publisher(for: UIDevice.orientationDidChangeNotification)) { _ in
-            withAnimation {
-                self.orientation = UIDevice.current.orientation
-            }
-        }
     }
     
     private var contentGroup: some View {
@@ -77,7 +67,7 @@ struct LoginView1: View {
         Image(.img5)
             .resizable()
             .aspectRatio(contentMode: .fit)
-            .frame(width: isPhone ? (self.orientation.isLandscape ? 256 : 256) : 384)
+            .frame(width: isPhone ? (self.singletonHelper.orientation.isLandscape ? 256 : 256) : 384)
             .foregroundStyle(Constants.shared.gradient2)
     }
     

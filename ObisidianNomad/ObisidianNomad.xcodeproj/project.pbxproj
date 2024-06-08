@@ -24,6 +24,7 @@
 		EE86EF212BEF367500E1E619 /* CustomTextFieldStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE86EF202BEF367500E1E619 /* CustomTextFieldStyles.swift */; };
 		EE86EF232BEF393D00E1E619 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE86EF222BEF393D00E1E619 /* CustomTextField.swift */; };
 		EE86EF252BEF3DE700E1E619 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE86EF242BEF3DE700E1E619 /* Constants.swift */; };
+		EE86F8DA2BF8A8730043E66F /* GenericSingletonHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE86F8D92BF8A8730043E66F /* GenericSingletonHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		EE86EF202BEF367500E1E619 /* CustomTextFieldStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldStyles.swift; sourceTree = "<group>"; };
 		EE86EF222BEF393D00E1E619 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		EE86EF242BEF3DE700E1E619 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EE86F8D92BF8A8730043E66F /* GenericSingletonHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericSingletonHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +169,7 @@
 			children = (
 				EE86EEEC2BEE42A600E1E619 /* Color.swift */,
 				EE86EF242BEF3DE700E1E619 /* Constants.swift */,
+				EE86F8D92BF8A8730043E66F /* GenericSingletonHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				EE31609C2BF4F84C003D80A7 /* MockData1.swift in Sources */,
 				EE86EF232BEF393D00E1E619 /* CustomTextField.swift in Sources */,
 				EE86EED72BEE180900E1E619 /* ObisidianNomadApp.swift in Sources */,
+				EE86F8DA2BF8A8730043E66F /* GenericSingletonHelper.swift in Sources */,
 				EE3160982BF4F68E003D80A7 /* CustomDummyViews.swift in Sources */,
 				EE3160A22BF4FDE3003D80A7 /* GenericSectionListViewModel.swift in Sources */,
 				EE86EEED2BEE42A600E1E619 /* Color.swift in Sources */,
